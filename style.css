@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+  padding: 30px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("https://i.imgur.com/zwp2EXP.png") center top;
+  background-color: #41740e;
+  background-repeat: repeat-x;
+  background-size: contain;
+  font-family: "Press Start 2P";
+  position: relative;
+}
+
+form {
+  background: #ef5350;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+form input {
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 12px 20px;
+}
+
+form input[type="text"] {
+  background: rgba(255, 254, 254, 0.7);
+  min-width: 300px;
+  max-width: 100%;
+}
+
+form input[type="submit"] {
+  cursor: pointer;
+  margin-left: 8px;
+  background: #c62828;
+  color: #f0d0d0;
+}
+
+.pokemon {
+  text-align: center;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+.stats {
+  font-size: 14px;
+}

@@ -44,13 +44,7 @@ async function getPokemon(name = "bulbasaur") {
       .join("")}
     <div>
     
-    <div class="moves">
-    ${pokemon.moves
-      .map((move) => {
-        return `${move.move.name}  `;
-      })
-      .join("")}
-    <div>
+
   `;
 
   pokemonContainer.appendChild(pokemonEl);

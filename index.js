@@ -35,14 +35,16 @@ async function getPokemon(name = "bulbasaur") {
         })
         .join("")}
     </div>
-    <div>
+
+    <div class="abilities">
     ${pokemon.abilities
       .map((ability) => {
         return `<p>${ability.ability.name}</p>`;
       })
       .join("")}
     <div>
-    <div>
+    
+    <div class="moves">
     ${pokemon.moves
       .map((move) => {
         return `${move.move.name}  `;
